@@ -1,0 +1,83 @@
+﻿* {
+box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #eb9e9e;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    background-color:bisque;
+    text-align: center;
+    border: 1px solid white;
+    padding: 15px;
+    width:100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center; 
+}
+
+.labelTop {
+    background-color: antiquewhite;
+    text-align: center;
+    border: 1px dotted white;
+    padding: 15px 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+.tableDiv {
+    margin: 0 auto;
+    background-color:#d99393;
+    padding: 30px ;
+}
+
+table, td, tr {
+    border: 2px solid bisque;
+}
+
+.tdLabel {
+    width: 200px;
+}
+.textBox{
+    height:30px;
+    width:214px;
+}
+
+.btn {
+    width: 69px;
+    display: block;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+.btnToReg {
+    padding: 0 10px;
+    margin: 0 20px;
+    height:30px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+/*@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+}*/
+
+
